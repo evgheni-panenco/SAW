@@ -1,0 +1,50 @@
+.date_form {
+	margin:5px auto;
+	padding: 10px;
+	max-width: 80%;
+	min-height: 100px;
+}
+.linie, textarea
+{
+	background-color:#ffffe6;
+	border: 1px solid #696969;
+	max-width: 100%;
+	color:  #696969;
+	padding:10px;
+	margin: 5px;
+	box-shadow: 2px 3px 5px light-gray;
+}	
+legend 
+{
+	font-weight:bold;
+	color: blue;
+}
+input[placeholder] {
+	font-style: italic;
+}
+.viu {
+	max-width: 100%;
+	height:30px;
+	background-image: url('../image/floare.jpeg');
+	background-repeat: repeat-x;
+	background-size:5% 100%;
+}
+.err {
+	color: orange;
+	font-size: 12px;
+}
+.anim {
+	margin: 5px 3px;
+	box-shadow: 2px 2px #ebebe0;
+	padding: 3px;
+	height: 150px;
+	max-width: 155px;
+	box-sizing: border-box;
+	float: left;
+}
+.bord:hover {
+	box-shadow: 2px 2px green;
+}
+.color_a:hover {
+	color: orange;
+}
