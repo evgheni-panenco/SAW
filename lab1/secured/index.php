@@ -54,11 +54,11 @@
 	<div class="date_form w3-container w3-border w3-round-xlarge w3-card-8 w3-hover-border-green">
 		<form action="<?php $_SERVER['SCRIPT_NAME']?>" method="post" autocomplete="off" onsubmit="return validation();">
 			<label>Login <input type="text" id="login" class="linie"
-				 name="login" maxlength="20" pattern="[A-Za-z0-9]{4,20}"
+				 name="login" maxlength="20" pattern="^[A-Za-z0-9]{4,20}$"
 				 title="Login must be 4 to 20 chars, without spec. chars"/> </label><br />
 
 			<label>Parola <input type="password" id="password"  class="linie"
-				name="password" maxlength="20" pattern="[A-Za-z0-9]{4,20}"
+				name="password" maxlength="20" pattern="^[A-Za-z0-9]{4,20}$"
 			 	title="Password must be 4 to 20 chars, without spec. chars"/> </label><br />
 			<input type="submit" name='ok' class="w3-container w3-border w3-round-xlarge w3-card-16 w3-green w3-padding-16 w3-hover-border-green" value="Intra" />
 		</form>
@@ -72,16 +72,16 @@
 			var login = document.getElementById('login');
 			var password = document.getElementById('password');
 			var errorMessage = "";
-			var err = true;
+			var err = false;
 
 			if (!/^[A-Za-z0-9]{4,20}$/.test(login)) {
 				errorMessage += "Login must be 4 to 20 chars, without spec. chars<br>";
-				err = false;
+				err = true;
 			}
 
 			if (!/^[A-Za-z0-9]{4,20}$/.test(password)) {
 				errorMessage += "Password must be 4 to 20 chars, without spec. chars<br>";
-				err = false;
+				err = true;
 			}
 
 			document.getElementById('errorMessage').innerHTML = errorMessage;

@@ -1,7 +1,20 @@
 <?php
+	//$onclick_delete_confirm = "if (!(confirm('Are you sure you want to delete this student?'))) return false;";
+
 	session_start();
 	if ($_SESSION['id_user'] == "") {
 		header('Location: http://'.$_SERVER['SERVER_NAME'].'/secured');
+	}
+
+	if(isset($_POST['itemid']) and is_numeric($_POST['itemid']))
+	{
+		require('connection.php');
+
+	  $delete_id = $_POST['itemid'];
+	  $sql = "DELETE FROM `produse` where `id_prod` = '$delete_id'";
+		mysqli_query($conn, $sql);
+
+		mysqli_close($conn);
 	}
  ?>
 
@@ -34,11 +47,13 @@
 				<input type="submit" value="Cauta detalii" name ="ok" class="w3-container w3-border w3-padding-8 w3-round-xlarge w3-card-8 w3-green w3-hover-border-orange" />
 			</form>
 		</div>
+
+		<form method="post">
 		<?php
 			if ($_GET['ok']) {
 			$sir_cautat = strtoupper("".$_GET['cauta']);
 			require('connection.php');
-			$sqlQwer=mysqli_query($conn, "SELECT denumire, descriere, pret_unitar, imagine FROM produse WHERE UPPER(denumire) LIKE '%$sir_cautat%'");
+			$sqlQwer=mysqli_query($conn, "SELECT id_prod, denumire, descriere, pret_unitar, imagine FROM produse WHERE UPPER(denumire) LIKE '%$sir_cautat%'");
 			if ($sqlQwer) {
 				echo '<div class="date_form w3-container w3-border w3-round-xlarge w3-card-8 w3-hover-border-green"><table>';
 				while($rows=mysqli_fetch_array($sqlQwer)){
@@ -46,6 +61,9 @@
 				echo '<td  class="w3-border w3-padding-16"><img width="55" height="47" border="1" src="'.$rows['imagine'].'"</td>';
 				echo '<td  class="w3-border w3-padding-16">'.$rows['denumire']." - ".$rows['pret_unitar']." lei</td>";
 				echo '<td  class="w3-border w3-padding-16">'.$rows['descriere']."</td>";
+				$id = $rows['id_prod'];
+				echo "<input type='hidden' name='itemid' value='$id'>";
+				echo '<td  class="w3-border w3-padding-16"><input type="submit" name="deleteItem" value="Delete" /></td>"';
 				echo '</tr>';
 			}
 			mysqli_close($conn);
@@ -53,6 +71,7 @@
 			}
 			}
 		?>
+		</form>
 	</section>
 </div>
 </body>
