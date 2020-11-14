@@ -1,9 +1,12 @@
 <?php
+include_once 'logging.php';
     session_start();
 
     if ($_SESSION['login'] == "" || $_SESSION['role'] == "") {
         header('Location: http://' . $_SERVER['SERVER_NAME'] . '/sign-in.php');
     }
+
+    write_logs("menu");
 ?>
 
 <!DOCTYPE html>

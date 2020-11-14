@@ -1,0 +1,32 @@
+Время				Файл				User IP				Session ID				Username		Role		Action
+14/11/20 20:23:43		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		user		manager		signed in
+14/11/20 20:23:43		/menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		user		manager		menu
+14/11/20 20:23:45		/send-message.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		user		manager		send_message
+14/11/20 20:23:46		/menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		user		manager		menu
+14/11/20 20:23:47		/sign-out.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		user		manager		sign out
+14/11/20 20:23:50		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		[-]		[-]		auth. fail
+14/11/20 20:23:56		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		manager		manager		signed in
+14/11/20 20:23:56		/menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		manager		manager		menu
+14/11/20 20:23:59		/send-message.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		manager		manager		send_message
+14/11/20 20:24:00		/menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		manager		manager		menu
+14/11/20 20:24:01		/sign-out.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		manager		manager		sign out
+14/11/20 20:24:04		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		[-]		[-]		auth. fail
+14/11/20 20:24:06		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		[-]		[-]		auth. fail
+14/11/20 20:24:08		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		[-]		[-]		auth. fail
+14/11/20 20:24:16		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		signed in
+14/11/20 20:24:16		/admin-menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		admin-menu
+14/11/20 20:24:19		/menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		menu
+14/11/20 20:24:21		/send-message.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		send_message
+14/11/20 20:24:22		/menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		menu
+14/11/20 20:24:22		/sign-out.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		sign out
+14/11/20 21:58:38		/sign-in.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		signed in
+14/11/20 21:58:38		/admin-menu.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		admin-menu
+14/11/20 21:58:40		/sign-out.php		127.0.0.1		ea03di8tvrp80kush8pb5u468psrcnim		admin		admin		sign out
+14/11/20 22:08:27		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		signed in
+14/11/20 22:08:27		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		admin-menu
+14/11/20 22:08:29		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		sign out
+14/11/20 22:23:09		/index.php		127.0.0.1				[-]		[-]		new_subscriber
+15/11/20 00:26:04		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		signed in
+15/11/20 00:26:04		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		admin-menu
+15/11/20 00:26:06		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		sign out
+15/11/20 00:29:06		/index.php		127.0.0.1		[-]		[-]		[-]		new_subscriber

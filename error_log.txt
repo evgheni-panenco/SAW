@@ -1,0 +1,17 @@
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:03:27		/sign-in.php
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:03:32		/index.php
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:04:24		/index.php
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:04:30		/index.php
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:07:58		/index.php
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:08:00		/index.php
+Access denied for user 'mysql'@'localhost' (using password: YES)		14/11/20 22:08:01		/index.php
+logging.php does not exist!		14/11/20 22:20:28		/sign-in.php
+logging.php does not exist!		14/11/20 22:20:31		/sign-in.php
+logging.php does not exist!		14/11/20 22:20:33		/sign-in.php
+logging.php does not exist!		14/11/20 22:20:37		/sign-in.php
+logging.php does not exist!		14/11/20 22:22:44		/index.php
+logging.php does not exist!		14/11/20 22:22:45		/index.php
+logging.php does not exist!		14/11/20 22:22:46		/index.php
+Unknown database 'email_service2'		15/11/20 00:39:08		/index.php
+Unknown database 'email_service2'		15/11/20 00:46:39		/index.php
+Unknown database 'email_service2'		15/11/20 00:46:41		/index.php
