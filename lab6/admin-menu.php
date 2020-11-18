@@ -11,11 +11,7 @@ try {
 }
 session_start();
 
-if ($_SESSION['login'] == "") {
-    header('Location: http://' . $_SERVER['SERVER_NAME'] . '/sign-in.php');
-}
-
-if ($_SESSION['role'] != 'admin') {
+if ($_SESSION['login'] == "" || $_SESSION['role'] != 'admin') {
     header('Location: http://' . $_SERVER['SERVER_NAME'] . '/sign-in.php');
 }
 

@@ -52,3 +52,19 @@
 18/11/20 21:33:27		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		admin-menu
 18/11/20 21:33:41		/menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		menu
 18/11/20 21:33:42		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		sign out
+18/11/20 22:21:46		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		manager		manager		signed in
+18/11/20 22:21:46		/menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		manager		manager		menu
+18/11/20 22:22:27		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		signed in
+18/11/20 22:22:27		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		admin-menu
+18/11/20 22:36:48		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		sign out
+18/11/20 22:36:50		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		[-]		[-]		sign out
+18/11/20 22:36:55		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		signed in
+18/11/20 22:36:55		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		admin-menu
+18/11/20 22:36:57		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		admin		admin		sign out
+18/11/20 22:37:01		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		signed in
+18/11/20 22:37:01		/menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		menu
+18/11/20 22:37:08		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		admin-menu
+18/11/20 22:37:45		/sign-out.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		sign out
+18/11/20 22:37:51		/sign-in.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		signed in
+18/11/20 22:37:51		/menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		menu
+18/11/20 22:37:57		/admin-menu.php		127.0.0.1		gbd4m228t42q71hqgpqmhdprn9judgum		user		manager		admin-menu
