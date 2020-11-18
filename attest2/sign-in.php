@@ -23,7 +23,7 @@ function clean($data) {
 
 if (!empty($_POST['login']) & !empty($_POST['password'])) {
     $login = clean($_POST["login"]);
-    $parola = clean($_POST["password"]);
+    $parola = clean($_POST["password"]);    
     $hashPassword = hash('sha256', $parola);
 
     if (preg_match("/^[A-Za-z0-9]{4,20}$/", $login) && preg_match("/^[A-Za-z0-9]{4,20}$/", $parola)) {
